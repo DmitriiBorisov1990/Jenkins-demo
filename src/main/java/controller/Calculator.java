@@ -2,9 +2,7 @@ package controller;
 
 public class Calculator {
 
-    protected double sum(double a, double b) {
-        return a + b;
-    }
+    protected double sum(double a, double b) { return a + b; }
 
     protected double subtraction(double a, double b) {
         return a - b;
