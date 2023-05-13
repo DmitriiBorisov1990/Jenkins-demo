@@ -1,3 +1,5 @@
+package controller;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -24,12 +26,12 @@ class CalculatorTest {
     }
 
     @Test
-    void multiplicationTest() {
+    void multiplication() {
         Assertions.assertEquals(15, calculator.multiplication(3, 5));
     }
 
     @Test
-    void divisionTest() {
+    void division() {
         Assertions.assertEquals(3.0, calculator.division(9.0, 3.0));
     }
 }
