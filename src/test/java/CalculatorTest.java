@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 class CalculatorTest {
 
-    private Calculator calculator;
+    private static Calculator calculator;
 
     @BeforeAll
-    void setUp() {
+    static void setUp() {
         calculator = new Calculator();
     }
 
